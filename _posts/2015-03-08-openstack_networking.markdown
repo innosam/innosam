@@ -12,12 +12,10 @@ This is for people who are starting out:
 Virtual bridge connects one or more interfaces together, it acts just like a switch, the packet forwarding 
 is done based on the MAC address. 
 
-#Create Linux bridge:
+Create Linux bridge:
 
 virbr - name of the bridge
-	
-Create a bridge 
-
+	 
 `#sudo brctl addbr virbr`
 
 Add eth0 interface to the bridge 
