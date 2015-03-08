@@ -73,13 +73,6 @@ VLAN allows to create multiple broadcast domain and share a common gateway.
 When host A sends [ARP](http://en.wikipedia.org/wiki/Address_Resolution_Protocol) request(broadcast) it will be recieved only by D and the router. As trunk port will allow all tagged packets to pass through.
 
 
-#OVS:
-
-[Open vSwitch](http://openvswitch.org/), sometimes abbreviated to OVS, is a production-quality open source implementation of a distributed virtual multilayer switch.
-
-
-[WHY-OVS](https://github.com/openvswitch/ovs/blob/master/WHY-OVS.md)
-[OVS TUTORIAL WITH HANDS ON](http://openvswitch.org/support/dist-docs/tutorial/Tutorial.md.txt)
 
 #GRE/VXLAN Tunneling:
 
@@ -91,6 +84,14 @@ The point to point traffic is tunneled between the VTEP's. Although the broadcas
 Importantly, VXLAN Network Identifer(VNI) is mapped to each endpoint, and it is included in the encapsulated UDP packet.
 The VNI identifier is 24-bit segment ID, this allows up to 16 Million VXLAND segments to coexist within the same administrative domain.
 
+#OVS:
+
+[Open vSwitch](http://openvswitch.org/), sometimes abbreviated to OVS, is a production-quality open source implementation of a distributed virtual multilayer switch.
+
+
+[WHY-OVS](https://github.com/openvswitch/ovs/blob/master/WHY-OVS.md)
+
+[OVS TUTORIAL WITH HANDS ON](http://openvswitch.org/support/dist-docs/tutorial/Tutorial.md.txt)
 
 
 
