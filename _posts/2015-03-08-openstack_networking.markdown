@@ -48,16 +48,18 @@ In short, the packets are distinguised by the VLAN tags. The VLAN tags are inser
 
 VLAN allows to create multiple broadcast domain and share a common gateway.
 
-                                                         +-------------+
-+---------------------------------------+  TRUNK PORT    |             |
-|            SWITCH                     |                |             |
-|                                       +----------------+  ROUTER     |
-|                                       |                |             |
-|                                       |                |             |
-|                                       |                |             |
-|      tag-2    tag-1    tag-1   tag-2  |                +-------------+
-|       +        +        +       +     |                               
-+---------------------------------------+                               
+
+
+                                                             +-------------+
+    +---------------------------------------+  TRUNK PORT    |             |
+    |            SWITCH                     |                |             |
+    |                                       +----------------+  ROUTER     |
+    |                                       |                |             |
+    |                                       |                |             |
+    |                                       |                |             |
+    |      tag-2    tag-1    tag-1   tag-2  |                +-------------+
+    |       +        +        +       +     |                               
+    +---------------------------------------+                               
        |         |        |       |                                     
        |         |        |       |                                     
        |         |        |       |                                     
